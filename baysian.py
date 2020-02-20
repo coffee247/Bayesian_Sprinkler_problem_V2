@@ -4,10 +4,17 @@
 James M. Stallings
 DecisionQ Coding exercise #2
 Problem 2 of 2 with 72 hours to complete both.  (problem 1 was a trivial one -->  a webscraper)
+
+I did not finish this exercise in time (do_multiply_operation not implemented because 
+I could not find a way to make my understanding of the problem match the known correct values)
+
+I have subsequently come to believe the provided "correct" data was incorrect. 
+I was unable to get value (F,F)--> 0.42 
+While whiteboarding (post-mortem), I have come to believe the correct factor should have been (F,F) --> 0.48
 '''
 
 
-''' Represent the Sprinkler Baysian Network as single dimension arrays with
+''' STRATEGY part 1:  Represent the Sprinkler Baysian Network as single dimension arrays with
 arrays indexed by the binary representations of the left hand "truth" factors 
 indexes are 00, 01, 10, 11 (binary from: FF, FT, TF, TT) [dec 0, 1, 2, 3]
 '''
@@ -93,10 +100,5 @@ def pIsWet(**kwargs):
 # setupDoSummingOut()
 ''' Uncomment next line to print factors to screen '''
 printSummingOutResults()
-
-
-ans = pIsWet(sprinkler=None, rain=False, wetGrass=True)
-print("\n***** Solution is {:.3} ******".format(ans))
-
 
 do_multiply_operation(p_rain, p_spinkler)
