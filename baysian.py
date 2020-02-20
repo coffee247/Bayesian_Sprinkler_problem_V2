@@ -5,7 +5,8 @@ James M. Stallings
 DecisionQ Coding exercise #2
 Problem 2 of 2 with 72 hours to complete both.  (problem 1 was a trivial one -->  a webscraper)
 
-I did not finish this exercise in time (do_multiply_operation not implemented because 
+I did not finish this exercise in time and it is still VERY rough (needs refactoring and documenting)
+(do_multiply_operation was not implemented at all because ...
 I could not find a way to make my understanding of the problem match the known correct values)
 
 I have subsequently come to believe the provided "correct" data was incorrect. 
