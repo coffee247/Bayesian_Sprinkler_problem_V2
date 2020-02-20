@@ -3,7 +3,7 @@
 '''
 James M. Stallings
 DecisionQ Coding exercise #2
-Due Saturday 18 Jan 2020 at 10:00 am EST.
+Problem 2 of 2 with 72 hours to complete both.  (problem 1 was a trivial one -->  a webscraper)
 '''
 
 
