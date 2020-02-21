@@ -13,6 +13,7 @@ The Summing-out operation is implemented here.
 ''' STRATEGY part 1:  Represent the Sprinkler Baysian Network as single dimension arrays with
 arrays indexed by the binary representations of the left hand "truth" factors 
 indexes are 00, 01, 10, 11 (binary from: FF, FT, TF, TT) [dec 0, 1, 2, 3]
+Use Bitwise operations to mask failed sensors when doing summations.
 '''
 p_rain = [0.8, 0.2]
 p_spinkler = [0.6, 0.4, 0.99, .01]
