@@ -5,13 +5,8 @@ James M. Stallings
 DecisionQ Coding exercise #2
 Problem 2 of 2 with 72 hours to complete both.  (problem 1 was a trivial one -->  a webscraper)
 
-I did not finish this exercise in time and it is still VERY rough (needs refactoring and documenting)
-(do_multiply_operation was not implemented at all because ...
-I could not find a way to make my understanding of the problem match the known correct values)
+The Summing-out operation is implemented here.
 
-I have subsequently come to believe the provided "correct" data was incorrect. 
-I was unable to get value (F,F)--> 0.42 
-While whiteboarding (post-mortem), I have come to believe the correct factor should have been (F,F) --> 0.48
 '''
 
 
