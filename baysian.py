@@ -5,12 +5,14 @@ James M. Stallings
 DecisionQ Coding exercise #2
 Problem 2 of 2 with 72 hours to complete both.  (problem 1 was a trivial one -->  a webscraper)
 
-The Summing-out operation is implemented here.
+The Summing-out operation is implemented here.  Tests are implemented int tests_bayesian.py
 
 '''
 
 
-''' STRATEGY part 1:  Represent the Sprinkler Baysian Network as single dimension arrays with
+''' 
+STRATEGY:  
+    Represent the Sprinkler Baysian Network as single dimension arrays with
 arrays indexed by the binary representations of the left hand "truth" factors 
 indexes are 00, 01, 10, 11 (binary from: FF, FT, TF, TT) [dec 0, 1, 2, 3]
 Use Bitwise operations to mask failed sensors when doing summations.
